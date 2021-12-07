@@ -172,21 +172,9 @@ namespace WindowsFormsApp9
                 MessageBox.Show("Seleccione una fila para poder editar por favor!");
 
             }
-            
-            //if (dtGridClientes.SelectedRows.Count > 0)
-            //{
-            //    ClienteModificar = true;
-            //    HabilitaBotones();
-            //    txtApellidoNombre.Focus();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Seleccione una fila por favor!");
-            //}
-
-
         }
         #region CargaCombos y DataGrid
+        //Cargamos combos y grilla--
         private void CargaDatosEnGrilla()
         {
             try
@@ -392,6 +380,7 @@ namespace WindowsFormsApp9
 
         #endregion
         private void Borrar_validacion()
+            //Borramos las validamos una vez completos de text.box y combos
         {
             epValidarCampos.SetError(txtApellidoNombre, "");
             epValidarCampos.SetError(txtDni, "");
@@ -765,71 +754,6 @@ namespace WindowsFormsApp9
                 MessageBox.Show("Ya existe un usuario y un Email registrado");
                 throw;
             }
-            //    try
-            //    {
-            //        //string fechaEn = "07/25/2019 13:00:00";//Ingles
-            //        //string fechaEs = "25/07/2019 13:00:00";//español
-            //        //DateTime fechaEsp = Convert.ToDateTime(fechaEs, CultureInfo.InvariantCulture);
-
-            //        Conexion.CONEXIONSQLSERVER.conectar.Open();
-            //        SqlCommand cmd = new SqlCommand();
-            //        cmd = new SqlCommand("instertar_cliente", Conexion.CONEXIONSQLSERVER.conectar);
-            //        cmd.CommandType = CommandType.StoredProcedure;
-            //        cmd.Parameters.Add("@Apell_Nombre", SqlDbType.VarChar,50).Value = txtApellidoNombre.Text;
-            //        cmd.Parameters.Add("@NumDoc", SqlDbType.VarChar, 40).Value =  txtDni.Text;
-            //        //Preguntamos si esta vacio el campo no obligatorio y le asignamos otro dato
-            //       
-            //       
-           
-            
-            
-           
-
-            //        cmd.Parameters.Add("@IdLocalidad", SqlDbType.Int).Value = Convert.ToInt32(cbxLoclidad.SelectedValue);
-            //        cmd.Parameters.Add("@IdProvincia", SqlDbType.Int).Value = Convert.ToInt32(cbxProvincia.SelectedValue);
-            //        cmd.Parameters.Add("@IdPais", SqlDbType.Int).Value = Convert.ToInt32(cbxPais.SelectedValue);
-
-            //        //DateTime FechaNac = Convert.ToDateTime(dtmFechNac.Value.Date.ToString("yyyy/MM/dd"));//Convertimos la fecha sin la hora 
-            //        //DateTime FechaNac = dtmFechNac.Value.Date.ToString("dd/MM/yyyy"));0
-            //        //DateTime fecha_Nac = DateTime.Now;
-            //        // DateTime dtmDate = DateTime.Parse(dtmFechNac.Text);
-
-            //        //string fecha_nac = dtmFechNac.Value.ToString("yyyy-MM-dd");
-            //        //dtmFechNac.Format = DateTimePickerFormat.Custom;
-            //        //dtmFechNac.CustomFormat = "dd-MM-yyyy";
-            //       //DateTime miFecha = Convert.ToDateTime(dtmFechNac.Value.Date.ToString("yyyy-MM-dd"));
-
-            //        cmd.Parameters.Add("@FechaNac", SqlDbType.DateTime).Value = Convert.ToDateTime(dtmFechNac.Value);
-
-            //        //cmd.Parameters.Add("@FechaNac", SqlDbType.Date).Value = dtmFechNac.Value.Date;
-           
-         
-         
-            //        //Valor del campo inquilino y propietario predeterminado
-            //        cmd.Parameters.Add("@Inquilino", SqlDbType.Int).Value = ValidarInquilino;
-            //        cmd.Parameters.Add("@Propietario", SqlDbType.Int).Value = ValidarPropietario;
-
-            //        cmd.Parameters.Add("@FechaAlta", SqlDbType.DateTime).Value = dtmFechaAlta.Value;
-            //        if (txtObs.Text.Length == 0)
-            //        {
-            //            cmd.Parameters.Add("@Observaciones", SqlDbType.VarChar, 200).Value = Observacion;
-            //        }
-            //        else
-            //        {
-            //            cmd.Parameters.Add("@Observaciones", SqlDbType.VarChar, 200).Value = Convert.ToString(txtObs.Text);
-            //        }
-            //        cmd.Parameters.Add("@Delete", SqlDbType.Bit).Value = 0;//Aquí va Cero, es nuevo y existente en la tabla
-            //        cmd.ExecuteNonQuery();
-            //        //System.IO.MemoryStream ms = new System.IO.MemoryStream();
-            //        Conexion.CONEXIONSQLSERVER.conectar.Close();           
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        MessageBox.Show(ex.StackTrace);
-            //        //throw;
-
-            //    }
-
            
         }
         private void UpDate_clientes()
@@ -1081,13 +1005,7 @@ namespace WindowsFormsApp9
                 }
             }
             
-            // int valor = int.Parse(cbxLoclidad.SelectedValue.ToString());
-            //if (cbxLoclidad.SelectedIndex.Equals(-1))
-            //{   
-
-            //    //MessageBox.Show("Seleccione Localidad por favor");
-            //    MessageBox.Show(cbxLoclidad.SelectedValue.ToString());
-            //}
+           
         }
 
         private void FrmClientes_Load(object sender, EventArgs e)
@@ -1116,17 +1034,7 @@ namespace WindowsFormsApp9
             {
                 e.Handled = true;
             }
-            //if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
-            //       (e.KeyChar != '.'))
-            //  {
-            //      e.Handled = true;
-            //  }
-
-            //  // only allow one decimal point
-            //  if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
-            //  {
-            //      e.Handled = true;
-            //  }
+            
         }
 
         private void txtApellidoNombre_KeyPress(object sender, KeyPressEventArgs e)

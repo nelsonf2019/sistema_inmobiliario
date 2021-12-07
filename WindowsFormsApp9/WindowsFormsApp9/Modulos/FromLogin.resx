@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+
+&lt;html lang="en" xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;div style="font: 14px sans-serif; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background: rgb(255, 255, 255); color: rgb(104, 111, 122); border-top: 4px solid rgb(236, 82, 82); margin-bottom: 20px;"&gt;
+        &lt;div style="border-bottom: 1px solid rgb(242, 243, 245); padding: 20px 30px;"&gt;
+            &lt;p style="margin-top: 0px; margin-bottom: 10px; font-size: 19px; text-decoration: blink;"&gt;
+                SISTEMA INMOBILIARIO&lt;/p&gt;
+            &lt;img id="m_8078357201635467473m_-7879740866044536288logo" alt="Udemy" class="m_8078357201635467473CToWUd CToWUd a6T" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fd1csarkz8obe9u.cloudfront.net%2Fposterpreviews%2Freal-estate-company-logo-design-template-8693fa42b032fb9131dd4aa973da585e_screen.jpg%3Fts%3D1566606260&amp;amp;imgrefurl=https%3A%2F%2Fes.postermywall.com%2Findex.php%2Fart%2Ftemplate%2F8693fa42b032fb9131dd4aa973da585e%2Freal-estate-company-logo-design-template&amp;amp;tbnid=1G97sHQnTMCWOM&amp;amp;vet=12ahUKEwjC5fON--3yAhUAuZUCHR7XCEkQMygPegUIARDZAQ..i&amp;amp;docid=96_eq_JNrN52lM&amp;amp;w=690&amp;amp;h=690&amp;amp;q=logo%20de%20una%20empresa%20inmobiliaria&amp;amp;ved=2ahUKEwjC5fON--3yAhUAuZUCHR7XCEkQMygPegUIARDZAQ" style="cursor: pointer; outline: 0px; max-width: 99px; display: block; height: 139px; width: 204px;" tabindex="0" /&gt;&lt;/div&gt;
+        &lt;div style="padding: 20px 30px;"&gt;
+            &lt;div style="font-size: 16px; line-height: 1.5em; border-bottom: 1px solid rgb(242, 243, 245); padding-bottom: 10px; margin-bottom: 20px;"&gt;
+                &lt;span class="im" style="color: rgb(80, 0, 80);"&gt;
+                &lt;p style="margin-top: 0px; margin-bottom: 10px; font-size: 16px;"&gt;
+                    &lt;a style="color: rgb(0, 0, 0); text-decoration: none;"&gt;Hola, solicitaste el envio de tu Password:&lt;/a&gt;&lt;/p&gt;
+                &lt;/span&gt;
+                &lt;p style="margin-top: 0px; margin-bottom: 10px; font-size: 16px;"&gt;
+                    &lt;a style="color: rgb(0, 0, 0); text-decoration: none;"&gt;!Bien!&lt;/a&gt;&lt;/p&gt;
+                &lt;a style="color: rgb(255, 255, 255); font-size: 16px; text-decoration: none; border-radius: 2px; background-color: rgb(236, 82, 82); border-width: 12px 18px; border-style: solid; border-color: rgb(236, 82, 82); display: inline-block;"&gt;@pass&lt;/a&gt;&lt;/div&gt;
+            &lt;div class="yj6qo ajU" style="cursor: pointer; outline: none; padding: 10px 0px; width: 22px; margin: 2px 0px 0px;"&gt;
+                &lt;div id=":mk" aria-expanded="true" aria-label="Ocultar contenido ampliado" class="ajR" data-tooltip="Ocultar contenido ampliado" role="button" style="background-color: rgb(232, 234, 237); border: none; clear: both; line-height: 6px; outline: none; position: relative; width: 24px; border-radius: 5.5px;" tabindex="0"&gt;
+                    &lt;img class="ajT" src="https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif" style="background: url(&amp;quot;https://www.gstatic.com/images/icons/material/system/1x/more_horiz_black_20dp.png&amp;quot;) center center / 20px no-repeat; height: 11px; opacity: 0.54; width: 24px;" /&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="adL"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="adL"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="adL" style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: rgb(255, 255, 255);"&gt;
+        &lt;div class="adm" style="margin: 5px 0px;"&gt;
+        &lt;/div&gt;
+        &lt;div class="im" style="color: rgb(80, 0, 80);"&gt;
+            &lt;div style="font: 11px sans-serif; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(242, 243, 245); text-decoration-style: initial; text-decoration-color: initial; color: rgb(104, 111, 122);"&gt;
+                &lt;p style="margin-top: 0px; margin-bottom: 10px; font-size: 11px; color: rgb(104, 111, 122); height: 17px;"&gt;
+                    Calle Urquiza 553 Nogoya ER. Rep. de Argetina.-.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pcLogin.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <metadata name="epValidarCampos.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>71</value>
+  </metadata>
+</root>
