@@ -1,0 +1,17 @@
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.FrmClients.resources
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Calendario.dll
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.FrmAgenda.resources
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.FrmPropiedades.resources
+C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache

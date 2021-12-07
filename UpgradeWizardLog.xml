@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\WindowsFormsApp9.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\App.config" />
+  <event action="Analyze" type="Success" name="Form1.resx" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\Modulos\Form1.resx" />
+  <event action="Analyze" type="Success" name="Form2.resx" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\Modulos\Form2.resx" />
+  <event action="Analyze" type="Success" name="Form3.resx" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\Modulos\Form3.resx" />
+  <event action="Analyze" type="Success" name="Form4.resx" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\Modulos\Form4.resx" />
+  <event action="Analyze" type="Success" name="FrmClients.resx" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\Modulos\FrmClients.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="WindowsFormsApp9" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\WindowsFormsApp9.csproj" />
+  <event action="Analyze" type="Success" name="WindowsFormsApp9" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9.sln" />
+  <event action="Backup" type="Success" name="WindowsFormsApp9" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\WindowsFormsApp9.csproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\WindowsFormsApp9.csproj" />
+  <event action="Upgrade" type="Success" name="WindowsFormsApp9" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9\WindowsFormsApp9.csproj" />
+  <event action="Upgrade" type="Success" name="WindowsFormsApp9" path="C:\Users\Nelson\source\repos\WindowsFormsApp9\WindowsFormsApp9.sln" />
+</log>
